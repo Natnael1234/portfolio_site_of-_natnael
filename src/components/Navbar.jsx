@@ -5,6 +5,9 @@ import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
 
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+
+
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -26,21 +29,38 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'> Natnael &nbsp;<span className='sm:block hidden'>| Mengistu Zerga</span></p>
         </Link>
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {navLinks.map((Link) => (
-            <li
-              key = {Link.id}
-              className={`${
-                active === Link.title
-                  ? "text-white"
-                  : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(Link.title)}
-            >
-              <a href={`#${Link.id}`}>{Link.title}</a>
-            </li>
-          ))}
-        </ul>
+        <ul className='list-none hidden sm:flex flex-row gap-10 justify-center items-center'>
+  {navLinks.map((Link) => (
+    <li
+      key={Link.id}
+      className={`${
+        active === Link.title ? "text-white" : "text-secondary"
+      } hover:text-white text-[18px] font-medium cursor-pointer gap-2`}
+      onClick={() => setActive(Link.title)}
+    >
+      <a href={`#${Link.id}`}>{Link.title}</a>
+    </li>
+  ))}
+  <li
+    className={`${
+      active === Link.title ? "text-white" : "text-secondary"
+    } hover:text-white text-[18px] font-medium cursor-pointer gap-2`}
+  >
+    <a href="https://www.linkedin.com/in/natinaelzerga">
+      <FaLinkedin />
+    </a>
+  </li>
+  <li
+    className={`${
+      active === Link.title ? "text-white" : "text-secondary"
+    } hover:text-white text-[18px] font-medium cursor-pointer gap-2`}
+  >
+    <a href="https://github.com/Natnael1234">
+      <FaGithub />
+    </a>
+  </li>
+  
+</ul>
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src= {toggle ? close : menu}
@@ -65,9 +85,12 @@ const Navbar = () => {
                     }}
                   >
                     <a href={`#${Link.id}`}>{Link.title}</a>
+                    
                   </li>
+                  
               ))}
             </ul>
+           
 
           </div>
 

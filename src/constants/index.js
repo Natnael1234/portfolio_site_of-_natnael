@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -38,19 +39,21 @@ import {
       id: "contact",
       title: "Contact",
     },
+    
+    
   ];
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "AI Model Trainer Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Video Editor",
       icon: backend,
     },
     {
@@ -116,8 +119,8 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Full Stack Developer",
+      company_name: "MMCY",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
@@ -129,8 +132,8 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Full Stack Developer",
+      company_name: "Addis Ababa Science and Technology University",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
@@ -142,8 +145,8 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Video Editor",
+      company_name: "Upwork",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
@@ -261,5 +264,6 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+  
   
   export { services, technologies, experiences, testimonials, projects };
