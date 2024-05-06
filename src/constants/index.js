@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    vue,
+    django,
+    premier,
+    aftereffect,
     
   } from "../assets";
   
@@ -76,16 +80,16 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Vuejs",
+      icon: vue,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "Django",
+      icon: django,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "figma",
+      icon: figma,
     },
     {
       name: "Tailwind CSS",
@@ -108,12 +112,12 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "After Effect",
+      icon: aftereffect,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Premier Pro",
+      icon: premier,
     },
   ];
   
@@ -122,7 +126,7 @@ import {
       title: "Full Stack Developer | Intern",
       company_name: "MMCY",
       icon: starbucks,
-      iconBg: "#383E56",
+      iconBg: "#FF7F50",
       date: "July 2023 - Dec 2023",
       points: [
         "Developed an Applicant Tracking System (ATS) from the ground up.",

@@ -27,7 +27,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'> Natnael &nbsp;<span className='sm:block hidden'>| Mengistu Zerga</span></p>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'> Natnael &nbsp;<span className='md:block hidden'>| Mengistu Zerga</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10 justify-center items-center'>
   {navLinks.map((Link) => (
