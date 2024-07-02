@@ -206,20 +206,20 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Tarabot Maids",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "I developed a system for an agency organization that connects service providers worldwide. My responsibilities included digitizing paperwork, implementing UI/UX using Bootstrap, and creating the backend with PHP and MySQL for efficient candidate displaying, client bookings, and WhatsApp integration.",
       tags: [
         {
-          name: "react",
+          name: "php",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "html5",
           color: "pink-text-gradient",
         },
       ],
@@ -227,47 +227,47 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Biometric Security API",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Developed a unified authentication system using Django and React, simplifying user experience and bolstering security. Incorporated SNN, TensorFlow, and deep learning for advanced AI-based authentication.",
       tags: [
         {
-          name: "react",
+          name: "django",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "neuralnetwork",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
       source_code_link: "https://github.com/",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   
