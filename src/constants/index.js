@@ -27,6 +27,7 @@ import {
     django,
     premier,
     aftereffect,
+    tarabot_landing,
     
   } from "../assets";
   
@@ -223,8 +224,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: tarabot_landing,
+      source_code_link: "https://tarabotmaid.com/",
     },
     {
       name: "Biometric Security API",
